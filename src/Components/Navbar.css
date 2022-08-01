@@ -1,0 +1,85 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    /* background-color: black; */
+    align-items: center;
+    
+}
+
+.navbar{
+    background-color: rgba(11, 11, 12, 0.068);
+}
+
+nav button {
+    margin: 5px;
+    /* background-color: black; */
+    border: none;
+    color: rgb(16, 8, 36);
+    cursor: pointer;
+}
+
+.shoplogo {
+    width: 3vw;
+    height: auto;
+    margin-top: 3%;
+    /* border: 2px solid black; */
+    border-radius: 50%;
+}
+
+.cart-icon-css {
+    color: white;
+}
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.cart-btn img {
+    width: 30px;
+    height: fit-content;
+}
+
+.cart-icon-css {
+    background-color: rgb(255,187,0);
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.profile-icon {
+    width: 30px;
+    padding: 10px;
+}
+
+.product-types {
+    background-color: #ffbb00;
+    display: flex;
+    justify-content: center;
+}
+
+.product-types button {
+    background-color: #ffbb00;
+    padding: 0px 5px;
+    margin: 8px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 13px;
+}
+
+.product-types button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+.leftContainer{
+    /* background: black; */
+    margin-left: 2rem;
+}
