@@ -10,7 +10,7 @@ const Banner = () => {
        <Carousel>
   <Carousel.Item>
     <img
-      className="d-block w-100 h-5"
+      className="d-block w-100 h-2"
       src= "https://www.shahtechnologies.in/img/opencart-app-banner3web.jpg"
       alt="First slide"
     />
@@ -21,7 +21,7 @@ const Banner = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100 h-5"
+      className="d-block w-100 h-2"
       src= "https://d2slcw3kip6qmk.cloudfront.net/marketing/press/images/template-gallery/banner-promotion-1200x400.jpeg"
       alt="Second slide"
     />
@@ -33,7 +33,7 @@ const Banner = () => {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-100 h-5"
+      className="d-block w-100 h-2"
       src= "https://cdn3.notifyvisitors.com/blog/wp-content/uploads/2019/01/11064310/Top-5-Push-Notifications-Templates-For-Ecommerce-Website-banner1.jpg"
       alt="Third slide"
     />

@@ -5,6 +5,7 @@ import Banner from './Banner';
 import { auth, db } from '../firebaseConfigs/firebaseConfig'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import ProductSlider from './Some-Product-Components/ProductSlider';
+import './Navbar.css'
 const Home = () => {
   function GetCurrentUser() {
     const [user, setUser] = useState("");
@@ -36,9 +37,12 @@ const loggeduser = GetCurrentUser();
   return (
     <div>
         <Navbar />
-        <Banner />
-        <Products />
+      
+       <Banner />
+        {/* <Products /> */}
         <ProductSlider type={'Mobile'}/>
+        <ProductSlider type={'Laptop'}/>
+        <ProductSlider type={'Camera'}/>
 
     </div>
   )
