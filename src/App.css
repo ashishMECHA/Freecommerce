@@ -28,11 +28,144 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.wrapper-container{
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+    height: 30rem;
+    margin-top:2em;
+    margin-bottom: 5em;
+}
+
+.child-1{
+  width:600px;
+  cursor:pointer;
+}
+
+.child-2{
+  width:330px;
+  cursor:pointer;
+}
+
+
+.child-4{
+  width:270px;
+  height: 50%;
+  padding-bottom: 15px;
+  cursor:pointer;
+}
+.child-5{
+  width:270px;
+  height: 50%;
+  cursor:pointer;
+}
+
+.child-1 img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+.child-2 img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+.child-4 img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+.child-5 img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+/********* Banner2 **********/
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  height: 25rem;
+  overflow: hidden;
+}
+
+.banner-container-reverse {
+  display: flex;
+  justify-content: space-between;
+  height: 25rem;
+  overflow: hidden;
+  flex-direction: row-reverse;
+}
+
+.banner {
+  padding-bottom: 4rem;
+  margin-top:5rem;
+}
+
+.text-side {
+  width: 50%;
+  font-family: "Poppins";
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  background-color: #E9E9E9;
+}
+
+.text-side h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: .5rem;
+}
+
+.text-side p {
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.img-side {
+  width: 50%;
+  text-align: end;
+  background-color: #E9E9E9;
+}
+
+.img-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text button {
+  background-color: black;
+  color: white;
+  font-size: .9rem;
+  font-weight: bold;
+  padding: .5rem;
+  text-transform: uppercase;
+  margin-top: .5rem;
+  cursor: pointer;
+  border: 2px solid black;
+  transition: all 0.15s;
+}
+
+.text button:hover {
+  background-color: transparent;
+  color: black;
+}
+
+@media (max-width:750px) {
+  .text-side {
+      padding: 0 4rem;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width:600px) {
+  .text-side {
+      width: 100%;
+  }
+
+  .img-side {
+      display: none;
   }
 }

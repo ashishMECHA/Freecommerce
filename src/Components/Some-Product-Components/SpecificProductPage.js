@@ -99,10 +99,7 @@ useEffect(()=>{
         <div className='cont'>
         <div className='myprod-container'>
             <img src={product.productimage} className="prod-img-cont" alt="image" />
-            <div className='buttons'>
-          <button onClick={()=>{addToCart()}}>ADD TO CART</button>
-          <button className='buynow'>BUY NOW</button>
-        </div>
+   
         {successMsg && <>
             <div className="success-msg">
               {successMsg}
@@ -122,6 +119,10 @@ useEffect(()=>{
         <div className="details">
         <p className="details-heading">Details</p>
         <p>{product.description}</p>
+        </div>
+        <div className='buttons'>
+          <button className='atc-button' onClick={()=>{addToCart()}}>ADD TO CART</button>
+          <button className='buynow'>BUY NOW</button>
         </div>
         
         </div>

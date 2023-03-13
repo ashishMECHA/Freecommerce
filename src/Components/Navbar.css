@@ -4,16 +4,17 @@
  
     font-family: "Poppins";
 }
+.home-page{
+    margin-left: 5%;
+    margin-right: 5%;
+}
 nav {
     display: flex;
-
     justify-content: flex-end;
     width: 100%;
-    /* background-color: black; */
     align-items: center;
     font-size: 15px;
-    padding-right: 2vw;
-    
+    padding-right: 2vw; 
 }
 
 .navbar{
@@ -32,7 +33,7 @@ nav button {
 
 nav button:hover{
     color: white;
-    background: burlywood;
+    background: gray;
     border-radius: 4px;
 }
 
@@ -40,7 +41,6 @@ nav button:hover{
     width: 5vw;
     height: auto;
     margin-top: 3%;
-    /* border: 2px solid black; */
 }
 
 .cartlogo{
@@ -74,15 +74,17 @@ nav button:hover{
 }
 
 .profile-icon {
-    width: 3vw;
-    padding: 10px;
+    width: 2.8vw;
+    padding: 7px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    background: lightgray;
 }
 
 .product-types {
     /* background-color: #2baf36b7; */
     display: flex;
     justify-content: center;
-    /* border: 2px solid black; */
     /* border-top: 1px solid gray; */
 }
 
@@ -91,13 +93,12 @@ nav button:hover{
     margin-top: 0;
     margin-bottom: 3px;
     margin-right: 15px;
-    border: none;
-    border-radius: 5px;
+    border: 2px solid lightgray;
     font-size: 13px;
 }
 
 .product-types button:hover {
-    background-color: burlywood;
+    background-color: darkgray;
     color: white;
     font-weight: 600;
 }

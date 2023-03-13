@@ -1,0 +1,51 @@
+.news {
+    background-color: #191919;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+}
+
+.news h2 {
+    font-family: "Poppins";
+    color: white;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.news-text {
+    text-align: center;
+}
+
+.news input {
+    font-size: 1.1rem;
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    margin-right: .7rem;
+    border: none;
+    outline: none;
+}
+
+.news button {
+    font-size: 1.1rem;
+    padding: .2rem;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width:400px) {
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .news input {
+        margin-right: 0;
+        text-align: center;
+    }
+}

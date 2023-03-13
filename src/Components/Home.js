@@ -6,6 +6,10 @@ import { auth, db } from '../firebaseConfigs/firebaseConfig'
 import { collection, getDocs, query, where } from 'firebase/firestore'
 import ProductSlider from './Some-Product-Components/ProductSlider';
 import './Navbar.css'
+import Banner2 from './Banner2';
+import BannerReverse from './Banner3';
+import Newsletter from './NewsLetter';
+import Footer from './Footer';
 const Home = () => {
   function GetCurrentUser() {
     const [user, setUser] = useState("");
@@ -35,15 +39,16 @@ const loggeduser = GetCurrentUser();
 // if(loggeduser){console.log(loggeduser[0].email)}
 
   return (
-    <div>
+    <div className='home-page'>
         <Navbar />
-      
-       <Banner />
-        {/* <Products /> */}
-        <ProductSlider type={'Mobile'}/>
+        <Banner />
         <ProductSlider type={'Laptop'}/>
+        <ProductSlider type={'Mobile'}/>
+        <Banner2/>
         <ProductSlider type={'Camera'}/>
-
+        <BannerReverse/>
+        <Newsletter/>
+        <Footer/>
     </div>
   )
 }

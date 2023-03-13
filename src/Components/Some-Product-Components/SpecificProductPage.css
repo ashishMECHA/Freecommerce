@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100&display=swap');
 
 .myprod-container{
-margin-left: 10px;
+margin-left: 5%;
 height: 30rem;
 width: 30rem;
 padding:16px;
-border:1px solid lightgrey;
 }
+
+
 .cont{
     display: flex;
 }
@@ -18,44 +19,58 @@ border:1px solid lightgrey;
 .prod-img-cont{
     width: 443px;
     height: 28rem;
+    padding: 5%;
 }
 
 .buttons{
-    margin-top: 30px;
+    margin-top: 5em;
    display: flex;
    justify-content: space-between;
 }
 
 .buttons button{
-    color: aliceblue;
-    background: orange;
-    border: none;
     padding-left: 55px;
     padding-right: 55px;
     padding-top: 15px;
     padding-bottom: 15px;
 }
 .buttons .buynow{
-    color: aliceblue;
-    background: orange;
-    border: none;
     padding-left: 75px;
     padding-right: 75px;
     padding-top: 15px;
     padding-bottom: 15px;
+    background-color: #B6002C;
+    color: white;
+    border: 2px solid #B6002C !important;
+}
+.buynow:hover{
+    background-color: transparent;
+    color: #B6002C;
+}
+
+.atc-button{
+    background-color: transparent;
+    border: 2px solid black !important;
+}
+.atc-button:hover {
+    color: white;
+    background-color: black;
 }
 
 .right-container{
     font-family: "Poppins";
-margin-right: 30px;
-margin-left: 10px;
-padding-left:5px;
-border:1px solid lightgrey;
+margin-right: 10%;
+margin-left: 3%;
+padding-top: 2%;
+padding-left: 5%;
+padding-right: 5%;
+background-color: #E5E5E5;
+font-weight: 500;
 
 }
 .product-title{
-    font-size: 19px;
     padding-top: 4px;
+    font-size: 1.65rem;
    
 }
 .price-cont{
@@ -93,16 +108,17 @@ font-size:14px;
 
 }
 .details-heading{
-    font-size: 17px;
+    font-size: 1.4rem;
     margin-bottom: 0;
 
 }
 .slider-section{
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
 .prod-details-head{
+    font-family: "Poppins";
     font-weight: 600;
-    font-size: 18px;
+    font-size: 1.65rem;
     padding-left: 6px;
     margin-bottom: 2px;
 }

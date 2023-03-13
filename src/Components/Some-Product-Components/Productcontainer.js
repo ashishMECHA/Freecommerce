@@ -20,19 +20,19 @@ const Productcontainer = (product) => {
     <div className='product-details'>
     <a href={`/product/${p.producttype}/${p.id}`} ><button className='producttitle'>{p.producttitle}</button></a>
 
-        <div className='price-container'>
+        {/* <div className='price-container'>
             <p className='mrp'>MRP: <p className='rate'>&#8377;{mrp}</p></p>
             <p className='saleprice'>Discount Price: <p className='rate'>&#8377;{saleprice}</p></p>
             <p className='yousave'>You Save: &#8377;{(mrp - saleprice)}</p>
-        </div>
+        </div> 
 
-        <div className='buy-cart'>
-            {/* <button className='btn'>Buy Now</button>
-            <button className='btn'>Add to cart</button> */}
+         <div className='buy-cart'>
+             <button className='btn'>Buy Now</button>
+            <button className='btn'>Add to cart</button> 
             <a href={`/product/${p.producttype}/${p.id}`} >
                 <button className=''>More Details</button>
             </a>
-    </div>
+    </div> */}
       </div>
       </div>
     
