@@ -10,6 +10,7 @@ import Banner2 from './Banner2';
 import BannerReverse from './Banner3';
 import Newsletter from './NewsLetter';
 import Footer from './Footer';
+import Categories from './Categories';
 const Home = () => {
   function GetCurrentUser() {
     const [user, setUser] = useState("");
@@ -41,6 +42,7 @@ const loggeduser = GetCurrentUser();
   return (
     <div className='home-page'>
         <Navbar />
+        <Categories/>
         <Banner />
         <ProductSlider type={'Laptop'}/>
         <ProductSlider type={'Mobile'}/>
@@ -52,5 +54,4 @@ const loggeduser = GetCurrentUser();
     </div>
   )
 }
-
 export default Home

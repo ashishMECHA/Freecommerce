@@ -1,14 +1,14 @@
 
 .allproductpage .heading {
     background-color: rgb(240,240,240);
-    height: 100px;
+    font-family: "Poppins";
     display: flex;
     justify-content: center;
-    align-items: center;
+height: 50px;
 }
 
 .allproductpage .heading p{
-    font-size: 50px;
+    font-size: 2em;
 }
 
 .allproductpage .allproductcontainer {

@@ -4,6 +4,7 @@ import './Allproductpage.css'
 import Productcontainer from './Productcontainer.js'
 import { db } from '../../firebaseConfigs/firebaseConfig';
 import { collection, getDocs, query, onSnapshot } from 'firebase/firestore';
+import Categories from '../Categories';
 
 const Allproductpage = (props) => {
 const [products, setProducts] = useState([]);
@@ -33,6 +34,7 @@ useEffect(() => {
 
     <div className='allproductpage'>
         <Navbar />
+        <Categories/>
         <div className='heading'>
             <p>Top Results for {props.type}</p>
         </div>

@@ -18,12 +18,16 @@ function ProductSlider(props)  {
           items: 5
         },
         tablet: {
-          breakpoint: { max: 1024, min: 464 },
+          breakpoint: { max: 1024, min: 605 },
           items: 3
         },
         mobile: {
-          breakpoint: { max: 464, min: 0 },
-          items: 3
+          breakpoint: { max: 605, min: 400 },
+          items: 2
+        },
+        device: {
+          breakpoint: { max: 400, min: 0 },
+          items: 1
         }
       };
 

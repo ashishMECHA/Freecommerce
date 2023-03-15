@@ -168,4 +168,8 @@
   .img-side {
       display: none;
   }
+
+  .child-1{
+    display: none;
+  }
 }

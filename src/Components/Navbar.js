@@ -11,6 +11,9 @@ const Navbar = () => {
   const [cartData, setCartData] = useState([])
   const [loggeduser, setUser] = useState("");
 
+
+  
+
   useEffect(()=>{
     const GetCurrentUser = async ()=> {
       // const usersCollectionRef = collection(db, "users");
@@ -60,9 +63,10 @@ const Navbar = () => {
     <div className='wrapper'>
       <div className="navbar">
          <div className="leftContainer">
-         <Link to='/'><img className="shoplogo" src= {logo} alt='logo' /></Link>    
+         {/* <Link to='/'><img className="shoplogo" src= {logo} alt='logo' /></Link>     */}
+         <Link to='/' className="shoplogo"><h1>FreeComm</h1></Link>
          </div>
-         <div className="RightContainer">
+         <div className="rightcontainer">
              {!loggeduser && <nav>
                  <Link to='/'><button>Home</button></Link>
                  <Link to='/signup'><button>Register</button></Link>
@@ -93,14 +97,8 @@ const Navbar = () => {
                  </Link>
                  <button className='logout-btn' onClick={handleLogout}>Logout</button>
                  </nav>
-                 
                  }
          </div>
-      </div>
-      <div className='product-types'>
-        <a href='/product-type/mobiles'><button>Mobiles</button></a>
-        <a href='/product-type/laptops'><button>laptops</button></a>
-        <a href='/product-type/cameras'><button>Cameras</button></a>
       </div>
     </div>
   )

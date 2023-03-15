@@ -86,7 +86,7 @@ const [address, setAddress] = useState("")
 
           <div>
             <span>Already have an account</span>
-            <Link to ='/login'>Sign In</Link>
+            <Link to ='/login' className="link">Sign In</Link>
           </div>
 
 

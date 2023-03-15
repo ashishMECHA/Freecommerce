@@ -37,10 +37,15 @@ nav button:hover{
     border-radius: 4px;
 }
 
-.shoplogo {
+/* .shoplogo {
     width: 5vw;
     height: auto;
     margin-top: 3%;
+} */
+.leftContainer .shoplogo{
+    text-decoration: none;
+    color: #B6002C;
+    
 }
 
 .cartlogo{
@@ -107,3 +112,28 @@ nav button:hover{
     /* background: black; */
     margin-left: 2rem;
 }
+
+
+/* .burger-menu{
+    height: 100%;
+    width:2em;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:space-between; */
+    /* gap: 2px;
+    cursor:pointer;
+    display: none;
+  } */
+  /* .burger-bar{
+  width:2em;
+  background-color:rgb(10, 10, 10);
+  height:0.5em;
+  border-radius:0.5em;
+  
+  } */
+
+/* @media only screen and (max-width:600px) {
+    .burger-menu{
+        display:contents;
+      }
+}  */

@@ -92,7 +92,7 @@ useEffect(()=>{
     }
     
   return (
-    <div>
+    <div className='wrap'>
         <Navbar/>
         
         {product ? 

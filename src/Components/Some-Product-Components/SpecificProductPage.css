@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100&display=swap');
 
 .myprod-container{
-margin-left: 5%;
 height: 30rem;
-width: 30rem;
-padding:16px;
+/* width: 50%; */
+/* padding:16px; */
+
 }
 
+.wrap{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 
 .cont{
     display: flex;
@@ -17,15 +21,22 @@ padding:16px;
 }
 
 .prod-img-cont{
-    width: 443px;
+    /* width: 443px;
     height: 28rem;
-    padding: 5%;
+    padding: 5%; */
+    /* 
+    height: 100%; */
+    /* object-fit: cover; */
+    /* width: 90%; */
+    padding: 20px;
 }
 
 .buttons{
     margin-top: 5em;
    display: flex;
    justify-content: space-between;
+   
+   margin-bottom: 10px;
 }
 
 .buttons button{
@@ -59,7 +70,7 @@ padding:16px;
 
 .right-container{
     font-family: "Poppins";
-margin-right: 10%;
+
 margin-left: 3%;
 padding-top: 2%;
 padding-left: 5%;
@@ -121,4 +132,46 @@ font-size:14px;
     font-size: 1.65rem;
     padding-left: 6px;
     margin-bottom: 2px;
+}
+
+@media screen and (max-width:941px){
+    .buttons button{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .buttons .buynow{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #B6002C;
+        color: white;
+        border: 2px solid #B6002C !important;
+    }
+}
+
+@media screen and (max-width:655px) {
+    .cont{
+        display: flex;
+        flex-direction: column;
+    }
+    .myprod-container{
+        height: 10rem;
+        /* width: 50%; */
+        /* padding:16px; */
+        /* border: 2px solid black; */
+        }
+        .prod-img-cont{
+            /* 
+            height: 28rem;
+            padding: 5%; */
+            /* 
+             */
+            /*  */
+            /* width: 90%; */
+            object-fit: cover;
+            height: 100%;
+        }
 }

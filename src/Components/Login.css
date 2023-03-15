@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     padding-top: 100px;
+    font-family: "Poppins";
 }
 
 .login-form {
@@ -9,7 +10,6 @@
     flex-direction: column;
     padding: 10px;
     border: 1px solid rgb(224, 224, 224);
-    border-radius: 10px;
     width: 350px;
 }
 
@@ -26,32 +26,36 @@
 
 .login-form input {
     margin: 2px 0px;
-    border-radius: 5px;
     padding: 5px;
     border: 2px solid rgb(154, 154, 154);
     font-size: 18px;
 }
 
 .login-form input:focus {
-    outline: 2px solid orange;
+    outline: 2px solid #B6002C;
     border: none;
 }
 
 .login-form button {
-    background-color: rgb(255, 176, 29);
+    background-color: #B6002C;
     margin: 20px 0px;
     border: none;
     font-size: 20px;
     color: white;
     font-weight: 600;
-    border-radius: 10px;
+    border: 2px solid #B6002C !important;
     padding: 5px;
 }
 
 .login-form button:hover {
-    background-color: black;
-    color: rgb(255, 176, 29);
+    background-color: transparent;
+    color: #B6002C;
     cursor: pointer;
+}
+
+.link{
+    text-decoration: none;
+    margin-left: .5em;
 }
 
 .success-msg {
